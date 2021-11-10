@@ -1,0 +1,20 @@
+how to create project ->
+
+	file -> new -> dynamic web project 
+	dynamic web module - 2.5 
+	
+	servlet-api.jar  
+	
+	add external jar into project ->	
+			project right click --> properties -> java build path -> lib -> add external jar -->
+				now select servlet-api.jar from lib folder inside apache tomcat. 
+				
+				jump to order and exports-> select all -> apply and close.
+				
+-----------------------------------------------------
+
+folders --> src -> com ->
+						controller
+						dao 
+						util
+						bean 
