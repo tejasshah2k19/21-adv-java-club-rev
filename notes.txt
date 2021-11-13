@@ -18,3 +18,44 @@ folders --> src -> com ->
 						dao 
 						util
 						bean 
+-----------------------------------------------------
+if all data are present then we need to store those data into database. 
+
+jdbc --> db connection --> db query --> 
+
+
+jdbc ---> 1) db url , db username, db password 
+		  2) db - drivers 						
+		  
+		  
+		  
+1) download mysql connector and link it in project
+2) create DbConnection class for data base connection in util folder 		  
+-----------------------------------------------------
+
+mysql -u root -p 
+root 
+
+create database svp;  //one time 
+
+use svp; 
+
+//one time 
+create table products (
+	productId integer primary key auto_increment,
+	name varchar(30),
+	qty integer,
+	price integer
+);
+
+
+
+
+
+
+
+
+
+
+
+

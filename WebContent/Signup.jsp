@@ -7,7 +7,7 @@
 <title>Signup</title>
 </head>
 <body>
-	<form action="SignupController">
+	<form action="SignupController" method="post">
 		FirstName : <input type="text" name="firstName"  value="${firstNameValue}">
 		${firstNameError }
 		<br>
