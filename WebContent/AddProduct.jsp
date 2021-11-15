@@ -6,7 +6,9 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 </head>
 <body>
-
+	
+	
+	<a href="ListProductsController">All Products</a><br><Br>
 	<form method="post" action="AddProductController">
 
 		Product Name : <input type="text" name="name" /><br> Qty : <input

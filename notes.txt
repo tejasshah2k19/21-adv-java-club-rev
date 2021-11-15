@@ -48,6 +48,8 @@ create table products (
 	price integer
 );
 
+-----------------------------------------------------
+insert --> list [ db --> records -> jsp page  ] 
 
 
 
