@@ -51,6 +51,40 @@ create table products (
 -----------------------------------------------------
 insert --> list [ db --> records -> jsp page  ] 
 
+-----------------------------------------------------
+
+jstl --> java standard tag library 
+
+
+html --> <b>  <i>  <a> 
+java --> customtag -->  jstl | developer --> customtag  
+
+jstl -->	5 category  
+		sql 
+		core* 
+		formatting 
+		xml 
+		function 
+
+	1) jstl.jar download --> set build-path
+	2) taglib -> jsp 
+
+
+
+-----------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
