@@ -19,6 +19,7 @@
 			<th>Name</th>
 			<th>Qty</th>
 			<th>Price</th>
+			<th>Action</th>
 		</tr>
 
 
@@ -30,6 +31,9 @@
 			<td><%=p.getName()%></td>
 			<tD><%=p.getQty()%></tD>
 			<td><%=p.getPrice()%></td>
+			<td><a
+				href="DeleteProductController?productId=<%=p.getProductId()%>">Delete</a>
+			</td>
 		</tr>
 		<%
 			}

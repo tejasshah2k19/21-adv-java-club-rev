@@ -53,4 +53,19 @@ public class ProductDao {
 
 		return products;
 	}
+
+	public void deleteProduct(int productId) {
+
+		try {
+			Connection con = DbConnection.getConnection();
+			PreparedStatement pstmt = con.prepareStatement("delete from products where productId = ?");
+			pstmt.setInt(1, productId);
+
+			pstmt.executeUpdate();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+	}
+
 }
