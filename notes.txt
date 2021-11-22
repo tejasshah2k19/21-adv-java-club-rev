@@ -73,10 +73,34 @@ jstl -->	5 category
 
 -----------------------------------------------------
 
+filter :- pre process 
+		 
+		 whatsapp ==>  X -> image 25 mb send Y user 
+		 
+		X -> 25 MB -> W.server ---> 25 MB -> Y
+		
+		X -> 25 MB --> preProcess -> compress  -> 5MB -> W.server ---> Y 
+		
+		bank --> request -> ip black --> pakistan 
+		
+		Signup.jsp -> submit data -->   filter --> data validation |  server -> db save 
+		
 
+	1) class implements Filter 
+	2) override ==> init destroy  doFilter 
+	3) map web.xml | annotation 
 
-
-
+e.x :-> 
+		InputNum.jsp 	
+				no1
+				no2 
+						submit 
+						
+		Filter --> InputValidationFilter -> no1 and no2 must present 				
+		AddServlet  
+				no1+no2 	 
+-----------------------------------------------------
+	
 
 
 
