@@ -99,7 +99,30 @@ e.x :->
 		Filter --> InputValidationFilter -> no1 and no2 must present 				
 		AddServlet  
 				no1+no2 	 
+				
+		InputNumbers.jsp --> InputValidationFilter ---> AddNumController 		
 -----------------------------------------------------
+			
+		InputNumbers.jsp --> InputValidationFilter --->   Filter ------>  AddNumController 	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	
 
 
