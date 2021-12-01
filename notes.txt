@@ -104,7 +104,14 @@ e.x :->
 -----------------------------------------------------
 			
 		InputNumbers.jsp --> InputValidationFilter --->   Filter ------>  AddNumController 	
+-----------------------------------------------------
+headers -->	
 
+	submit request -> hidden information --> browser -> server 
+	
+	request headers --> client** 
+	response headers --> server 
+	
 
 
 

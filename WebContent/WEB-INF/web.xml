@@ -5,8 +5,6 @@
 	id="WebApp_ID" version="2.5">
 	<display-name>21-adv-ava-club-rev</display-name>
 	<welcome-file-list>
-		<welcome-file>index.html</welcome-file>
-		<welcome-file>index.htm</welcome-file>
 		<welcome-file>index.jsp</welcome-file>
 		<welcome-file>default.html</welcome-file>
 		<welcome-file>default.htm</welcome-file>
@@ -29,7 +27,7 @@
 		<filter-name>InputValidationFilter</filter-name>
 		<filter-class>com.filter.InputValidationFilter</filter-class>
 	</filter>
-	
+
 	<filter-mapping>
 		<filter-name>InputValidationFilter</filter-name>
 		<servlet-name>AddNumController</servlet-name>
@@ -40,7 +38,7 @@
 		<filter-name>IntegerCheckFilter</filter-name>
 		<filter-class>com.filter.IntegerCheckFilter</filter-class>
 	</filter>
-	
+
 	<filter-mapping>
 		<filter-name>IntegerCheckFilter</filter-name>
 		<servlet-name>AddNumController</servlet-name>
