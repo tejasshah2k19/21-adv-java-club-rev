@@ -22,6 +22,7 @@ public class AddProductController extends HttpServlet {
 		int qty = Integer.parseInt(request.getParameter("qty"));
 
 		ProductBean product = new ProductBean();
+
 		product.setPrice(price);
 		product.setName(productName);
 		product.setQty(qty);

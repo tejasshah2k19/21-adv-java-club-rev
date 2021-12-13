@@ -44,6 +44,13 @@
 		<servlet-name>AddNumController</servlet-name>
 	</filter-mapping>
 
+
+	<jsp-config>
+		<taglib>
+			<taglib-uri>www.royal.com/emp/tejas</taglib-uri>
+			<taglib-location>WEB-INF/elfunction.tld</taglib-location>
+		</taglib>
+	</jsp-config>
 </web-app>
 
 

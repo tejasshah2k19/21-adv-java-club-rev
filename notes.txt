@@ -112,11 +112,83 @@ headers -->
 	request headers --> client** 
 	response headers --> server 
 	
+-----------------------------------------------------
+reusable web component ->
+inclusion --> 
+
+Header.jsp
+Footer.jsp 
 
 
+--header
+InclusionHome.jsp
+--footer 
 
 
+inclusion :-
+	1) static inclusion  <%@ include %> <header and footer variable can access in home > <code copy> 
+	2) dynamic inclusion <jsp:include>  < we can not access any variable from other jsp > <output>
+	
+	
+	Header.jsp -> 5kb
+	Footer.jsp -> 5kb 
+	
+	Home.jsp ->5 kb 
+	
+	static -> Home.jsp -> 15kb  
+	dynamic -> Home.jsp -> 5kb
+	
+	
+	
+	
+	Header.jsp	
+		5 line 
+		
+	Footer.jsp
+		5 line 
+			
+	
+	
+	static : Home.jsp 
+	
+	header.jsp 5 line 
+	Home 5 line
+	footer.jsp 5 line  
+	
+	home.jsp > total lines --> 15 lines
+	
+	
+	dynamic : Home.jsp
+	
+	header.jsp [ go to header.jsp and run ] 5 
+	Home 5 line                             5 
+	footer.jsp [ go to footer.jsp and run ] 5  
+	
 
+-----------------------------------------------------	 
+ELfunction:-0	
+
+1) class - logic 
+2) tld [ information ] [function*]
+3) web.xml -> tld  	
+4) jsp use 	
+	
+greet->function 
+-----------------------------------------------------	 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
 
 
