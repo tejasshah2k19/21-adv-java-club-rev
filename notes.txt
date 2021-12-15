@@ -175,8 +175,20 @@ ELfunction:-0
 	
 greet->function 
 -----------------------------------------------------	 
+session
+cookie 
+useBean
+customTag
+
+
+to store user's information :-
+		1) cookie  -- client's browser --frontend 
+		2) session -- server's memory -- backed--serverside  
 	
 	
+	   privacy , security -> credit card -->  session 
+	   token , firstName --> cookie 
+	   
 	
 	
 	

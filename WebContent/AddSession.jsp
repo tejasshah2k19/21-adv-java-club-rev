@@ -7,11 +7,10 @@
 </head>
 <body>
 
-	<a href="ViewRequestHeadersController">ViewRequestHeaders</a> |
-	<a href="PrintCookie.jsp">Print Cookie</a> |
-	<a href="PrintSession.jsp">Print Session</a> |
-	<a href="LogoutServlet">Logout</a>
-	
+	<form action="AddSessionServlet">
+		Name : <input type="text" name="name"><br> <input
+			type="submit" value="Add Session">
+	</form>
 
 </body>
 </html>
