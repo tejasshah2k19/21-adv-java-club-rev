@@ -22,6 +22,7 @@ public class AddCookieServlet extends HttpServlet {
 		// create cookie object with cookie name and value
 		Cookie c = new Cookie("userName", name);
 
+		
 		c.setMaxAge(60*60*24);//seconds
 		// set cookie into browser
 		response.addCookie(c);
