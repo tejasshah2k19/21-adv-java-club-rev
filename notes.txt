@@ -189,6 +189,45 @@ to store user's information :-
 	   privacy , security -> credit card -->  session 
 	   token , firstName --> cookie 
 	   
+
+-----------------------------------------------------	 
+
+custom tag:-- 
+
+<b>
+<i>
+<a> 
+
+<greet></greet> ==> Good morning , Good Noon , Good Evening 
+<greet/>
+
+1) simple 
+2) classic 
+
+Simple Tag --> 
+
+	1) Tag Handler class --> logic 
+	2) .tld -> tag information --> name,class,body-content,*
+	3) web.xml --> map tld
+	4) use jsp --> taglib import   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	
 	
 	
