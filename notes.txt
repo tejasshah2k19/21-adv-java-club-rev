@@ -201,8 +201,8 @@ custom tag:--
 <greet></greet> ==> Good morning , Good Noon , Good Evening 
 <greet/>
 
-1) simple 
-2) classic 
+1) simple [SimpleTag]
+2) classic [Tag] 
 
 Simple Tag --> 
 
@@ -213,8 +213,8 @@ Simple Tag -->
 
 
 
-
-
+tag with attribute 
+<sum n1="2" n2="3"></sum>
 
 
 

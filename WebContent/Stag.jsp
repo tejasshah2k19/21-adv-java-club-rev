@@ -8,6 +8,13 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<t:greet />
+	<t:greet /><br>
+	<t:sum n1="10"  n2="30"/>  
+	
+	      
+	       
+	        
+	        
+	
 </body>
 </html>
