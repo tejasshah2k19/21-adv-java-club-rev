@@ -1,0 +1,42 @@
+<taglib>
+	<tlib-version>1.0</tlib-version>
+	<jsp-version>2.0</jsp-version>
+	<uri>www.royal.com/emp/tejas/ctag</uri>
+
+
+
+	<tag>
+		<name>print</name>
+		<tag-class>com.ctag.PrintTag</tag-class>
+		<body-content>JSP</body-content>
+		<attribute>
+			<name>name</name>
+			<rtexpr-value>true</rtexpr-value>
+		</attribute>
+		<attribute>
+			<name>count</name>
+			<rtexpr-value>true</rtexpr-value>
+		</attribute>
+	</tag>
+
+
+	<tag>
+		<name>printitr</name>
+		<tag-class>com.ctag.PrintWithIterationTag</tag-class>
+		<body-content>JSP</body-content>
+		<attribute>
+			<name>count</name>
+			<rtexpr-value>true</rtexpr-value>
+		</attribute>
+	</tag>
+	
+	<tag>
+		<name>marker</name>
+		<tag-class>com.ctag.MarkerTag</tag-class>
+		<body-content>JSP</body-content>
+		<attribute>
+			<name>color</name>
+			<rtexpr-value>true</rtexpr-value>
+		</attribute>
+	</tag>
+</taglib>

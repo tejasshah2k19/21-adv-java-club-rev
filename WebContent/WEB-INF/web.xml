@@ -50,17 +50,23 @@
 			<taglib-uri>www.royal.com/emp/tejas</taglib-uri>
 			<taglib-location>WEB-INF/elfunction.tld</taglib-location>
 		</taglib>
-		
+
 		<taglib>
 			<taglib-uri>www.royal.com/emp/tejas/stag</taglib-uri>
 			<taglib-location>WEB-INF/stag.tld</taglib-location>
 		</taglib>
+
+
+		<taglib>
+			<taglib-uri>www.royal.com/emp/tejas/ctag</taglib-uri>
+			<taglib-location>WEB-INF/ctag.tld</taglib-location>
+		</taglib>
 	</jsp-config>
-	
+
 	<session-config>
 		<session-timeout>5</session-timeout>
 	</session-config>
-	
+
 </web-app>
 
 
